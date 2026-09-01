@@ -173,6 +173,54 @@ nav{
 .profile-info h3{
     color: red;
 }
+#kontak{
+    padding: 7rem;
+    background-color: black;
+}
+#kontak h3{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    padding-bottom: 5em;
+}
+.tentangsaya{
+    display: flex;
+    justify-content: space-between;
+}
+.hubungi{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.hubungi h2{
+    color: red;
+
+}
+.hubungi a{
+    margin: 0.4rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: red;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 40px;
+    font-size: 25px;
+}
+.map iframe{
+    border-radius: 40px;
+    box-shadow: 0 20px 40px red;
+    
+    
+}
+.map{
+
+}
+.hubungi a:hover{
+    background-color: red;
+    color: black;
+}
+
+
 
 
 
@@ -186,7 +234,7 @@ nav{
         padding: 2rem;
     }
     .menu a {
-        margin: 10px;
+        margin: 8px;
     }
     .menu{
         margin: 0;
@@ -229,5 +277,11 @@ nav{
     #testimoni{
         padding: 2rem;
     }
-    
+    .tentangsaya{
+        flex-direction: column;
+    }
+    .map iframe{
+        box-sizing: border-box;
+        justify-content: center;
+    }
 }
