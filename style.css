@@ -107,6 +107,7 @@ nav{
 }
 .card{
     display: flex;
+    gap: 1.5rem;
 }
 .card span{
     color: red;
@@ -283,5 +284,12 @@ nav{
     .map iframe{
         box-sizing: border-box;
         justify-content: center;
+        width: 100%;
+    }
+    #kontak{
+        padding: 1rem;
+    }
+    #kontak h3{
+        padding-bottom: 1rem;
     }
 }
